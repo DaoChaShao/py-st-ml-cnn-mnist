@@ -77,8 +77,8 @@ with sidebar:
                     )
                     caption(f"The maximum number of test samples is **{len(session_state['X_test'])}**.")
 
-                    if button("Predict the Selected Sample", type="primary", width="stretch"):
-                        with spinner("Predicting the Selected Sample...", show_time=True, width="stretch"):
+                    if button("Predict the Selected Test Sample", type="primary", width="stretch"):
+                        with spinner("Predicting the Selected Test Sample...", show_time=True, width="stretch"):
                             with col_img:
                                 empty_samp_title.markdown(f"### Test Sample at Index {index_test}")
                                 print(type(session_state["X_test"]), session_state["X_test"].shape, index_test)
