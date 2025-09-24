@@ -10,14 +10,16 @@ from os import path, remove
 from tensorflow.keras import metrics
 from tensorflow.keras.utils import to_categorical
 from streamlit import (empty, sidebar, subheader, session_state, button,
-                       spinner, rerun, number_input, caption, columns)
+                       spinner, rerun, number_input, caption, columns,
+                       slider, image, markdown)
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import (Input, Conv2D, MaxPooling2D, AveragePooling2D, GlobalMaxPooling2D,
-                                     Flatten, Dense)
+from tensorflow.keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense
 
 from utils.helper import Timer, TFKerasLogger
 
 empty_messages: empty = empty()
+empty_samp_title: empty = empty()
+col_img, col_num = columns(2, gap="small")
 empty_result_title: empty = empty()
 col_los, col_acc, col_pre, col_rec, col_auc = columns(5, gap="small")
 col_los_valid, col_acc_valid, col_pre_valid, col_rec_valid, col_auc_valid = columns(5, gap="small")
