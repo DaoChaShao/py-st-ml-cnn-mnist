@@ -5,6 +5,8 @@
 
 ### Features
 
+- enhance layout with additional UI components in train.py ([5fb3e5f](https://github.com///commit/5fb3e5f54efdff800e17e650afddeaac8284f42d))
+- implement real-time digit recognition functionality in realtime.py ([e94eff5](https://github.com///commit/e94eff5e17b5be8628208843c0a560f4aa7b9c90))
 - implement model training functionality with session state management in train.py ([be92f60](https://github.com///commit/be92f6078748b3540c3b8325a1226b8e656e2111))
 - implement model testing functionality and result display in test.py ([5dfc11a](https://github.com///commit/5dfc11a32f321f0b9e753dd5b2cc7e88b5f682de))
 - implement data loading and display functionality for MNIST dataset in preparation.py ([89393ed](https://github.com///commit/89393ed681d6fb1b0fe353cfae02d63454575b0b))
@@ -33,6 +35,15 @@
 
 ### Bug Fixes
 
+- update button label for predicting selected test sample in test.py ([98a677e](https://github.com///commit/98a677e51c799162f74ed6119ae0a5478a18d535))
 - correct spelling of 'valid' in metric label formatting ([14200dd](https://github.com///commit/14200dd53aed49c04cfe38445d3bdc00fd49c353))
 - rename prepration.py to preparation.py for correct spelling ([63e86b2](https://github.com///commit/63e86b2553a1159f6a6784357056ce88c2456646))
+
+### Chore
+
+- update requirements.txt to replace opencv_python_headless with pillow ([63ce8a7](https://github.com///commit/63ce8a7254cbabcb558763389fd2eab26f1c3713))
+
+### Docs
+
+- update CHANGELOG.md with recent feature additions and bug fixes ([7963aa7](https://github.com///commit/7963aa78b8a19db0c45a494d0036a93aaea87380))
 
