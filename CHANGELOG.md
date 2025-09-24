@@ -35,6 +35,7 @@
 
 ### Bug Fixes
 
+- update introduction caption to reflect CNN training instead of MLP ([733b6ef](https://github.com///commit/733b6ef04996a8b23f746ebafe92ea9a74e14189))
 - update button label for predicting selected test sample in test.py ([98a677e](https://github.com///commit/98a677e51c799162f74ed6119ae0a5478a18d535))
 - correct spelling of 'valid' in metric label formatting ([14200dd](https://github.com///commit/14200dd53aed49c04cfe38445d3bdc00fd49c353))
 - rename prepration.py to preparation.py for correct spelling ([63e86b2](https://github.com///commit/63e86b2553a1159f6a6784357056ce88c2456646))
@@ -45,5 +46,6 @@
 
 ### Docs
 
+- update CHANGELOG.md to include recent feature and bug fix entries ([3ed881c](https://github.com///commit/3ed881c0789791bb8b9dc54bcaa1d8ca4edf2858))
 - update CHANGELOG.md with recent feature additions and bug fixes ([7963aa7](https://github.com///commit/7963aa78b8a19db0c45a494d0036a93aaea87380))
 
