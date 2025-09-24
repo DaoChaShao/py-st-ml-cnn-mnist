@@ -189,7 +189,7 @@ class TFKerasLogger(Callback):
             for key, placeholder in self._placeholders.items():
                 if key in logs and placeholder is not None:
                     placeholder.metric(
-                        label=f"Epoch {epoch + 1}: {key.replace("val_", "Valid ").capitalize()}",
+                        label=f"Epoch {epoch + 1}: {key.replace("val_", "valid ").capitalize()}",
                         value=f"{logs[key]:.4f}"
                     )
 
